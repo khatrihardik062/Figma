@@ -1,0 +1,773 @@
+/* @media only screen and (min-width: 769px) and (max-width: 1024px){
+   .inner_key{
+    padding: 20px;
+   }
+   .content_button button{
+   margin-left: 35%; 
+}
+.content{
+    margin-left: 10%;
+}
+.inner{
+    
+    padding: 15px;
+}
+.market2{
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+  .market1{
+    padding-bottom: 0px;
+  }
+  .outer-market{
+    padding: 10px;
+  }
+}
+@media only screen and (min-width: 427px) and (max-width: 768px){
+
+   .inner_key{
+    padding: 10px;
+   }
+     .content_button button{
+   margin-left: 32%; 
+}
+
+      
+ .top-content{
+    
+     flex-wrap: wrap;
+     padding: 10px;
+ }
+ .top-content-inner{
+    width: 360px;
+ }
+ .inner{
+    flex-direction: column;
+    padding: 10px;
+}
+.get-button button{
+    margin-left: 30%;
+}
+ .market2{
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+  .market1{
+    padding-bottom: 0px;
+  }
+  .outer-market{
+    padding: 10px;
+  }
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 426px){
+    .inner_header{
+        flex-direction: column;
+    }
+    .inner-banner{
+        flex-direction: column;
+    }
+     .inner_key{
+    padding: 10px;
+   }
+    .content_button button{
+   margin-left: 20%; 
+   
+}
+.heading h2{
+     padding-top: 40px;
+font-weight: 600;
+font-size: 30px;
+line-height: 100%;
+
+}
+.top-content{
+    flex-direction: column;
+    padding: 20px;
+}
+.top-heading h2{
+    font-weight: 600;
+font-size: 32px;
+
+line-height: 100%;
+}
+.outer{
+    margin-top: 20px;
+}
+.inner{
+    flex-direction: column;
+    padding: 10px;
+}
+.get-button button{
+    margin-left: 15%;
+}
+.outer-market{
+    padding: 10px;
+  }
+
+
+.display{
+    flex-wrap: wrap;
+    flex-basis: 45%;
+    justify-content: space-between;
+    margin: 5px;
+  }
+  .market2{
+    padding-top: 0px;
+  }
+  .market1{
+    padding-bottom: 0px;
+  }
+  .market-heading h2{
+       font-weight: 600;
+    font-size: 35px;
+    line-height: 100%;
+
+  }
+  .market-button{
+  display: flex;
+  align-items: center;
+  margin-right: 28%;
+}
+} */
+
+
+@media only screen and (min-width: 770px) and (max-width: 1024px) {
+
+    * {
+        box-sizing: border-box;
+    }
+
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .inner_key {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .content {
+        width: 100%;
+        height: auto;
+        margin-left: 10%;
+    }
+
+    .content_button button {
+        margin-left: 35%;
+    }
+
+    .inner {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+    }
+
+    .top-content {
+        width: 100%;
+        height: auto;
+    }
+
+    .top-content-inner {
+        width: 48%;
+        height: auto;
+    }
+
+    .market1 {
+        padding-bottom: 0;
+    }
+
+    .market2 {
+        padding-top: 0;
+        margin-top: 0;
+    }
+
+    .outer-market {
+        width: 100%;
+        padding: 10px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .outer-learn {
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .outer-banner {
+        padding: 12px;
+    }
+
+    .outer_key {
+        padding: 12px;
+    }
+
+    .outer-career {
+        padding: 12px;
+    }
+
+    .outer {
+        padding: 12px;
+    }
+
+    .outer-market {
+        padding: 12px;
+    }
+
+    .outer-learn {
+        padding: 12px;
+    }
+
+    .outer-our {
+        padding: 12px;
+    }
+    .content-core{
+        flex-basis: 320px;
+
+    }
+}
+
+
+
+@media only screen and (min-width:427px) and (max-width:769px) {
+
+    * {
+        box-sizing: border-box;
+    }
+
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .inner_key {
+        width: 100%;
+        height: auto;
+       
+    }
+
+    .content {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .content_button button {
+        margin-left: 32%;
+    }
+
+    .top-content {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .top-content-inner {
+        width: 48%;
+        height: auto;
+    }
+
+    .inner-banner {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .inner {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .get-button button {
+        margin-left: 30%;
+    }
+
+    .market1 {
+        padding-bottom: 0;
+    }
+
+    .market2 {
+        padding-top: 0;
+        margin-top: 0;
+    }
+
+    .outer-market {
+        width: 100%;
+        padding: 10px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .outer-form {
+        margin-top: 30px;
+        background-color: white;
+    }
+
+    .outer-banner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner-button {
+        display: flex;
+    }
+
+    .button1 {
+        padding: 10px 0px;
+        font-weight: 500;
+        font-size: 15px;
+        margin-bottom: 4px;
+        flex-basis: 50%
+    }
+
+    .button2 {
+        padding: 10px 5px;
+        font-weight: 500;
+        font-size: 15px;
+        flex-basis: 50%
+    }
+
+    .forme {
+        width: 100%;
+        box-sizing: border-box;
+        display: flex;
+
+
+    }
+
+    .stats-box {
+        padding: 10px 0px;
+    }
+
+    .stat-item h2 {
+        font-size: 28px;
+        color: #1E88FF;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+
+    .stat-item p {
+        font-size: 10px;
+        color: #666;
+    }
+
+    .inner-form-input {
+        padding-top: 13px;
+        padding-right: 0px;
+        padding-bottom: 13px;
+        padding-left: 0px;
+    }
+
+    .form {
+        width: 100%;
+       padding: 30px 100px;
+    }
+
+    .learn {
+        grid-template-columns: auto auto;
+    }
+
+    .outer-learn {
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    .testimonial-card {
+        padding: 10px;
+    }
+   
+
+
+
+
+
+}
+
+
+
+@media only screen and (max-width:426px) {
+
+    * {
+        box-sizing: border-box;
+    }
+
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .inner_header {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .inner-banner {
+        width: 100%;
+        flex-direction: column;
+
+    }
+
+    .inner_key {
+        width: 100%;
+        height: auto;
+        
+    }
+
+
+    .content {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+
+
+    .heading h2 {
+        padding-top: 40px;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 100%;
+    }
+
+    .top-heading h2 {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 100%;
+    }
+
+    .top-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      
+    }
+
+    .top-content-inner {
+        width: 100%;
+        height: auto;
+    }
+    .content_button button{
+        font-weight: 0;
+        padding: 10px;
+        font-size: 17px;
+    }
+
+    .outer {
+        margin-top: 20px;
+    }
+
+    .inner {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .get-head h3 {
+
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-top: 20px;
+
+}
+
+    .get-button button {
+      padding: 10px;
+      font-weight: 500;
+    }
+
+    .outer-market {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .market1 {
+        padding-bottom: 0;
+    }
+
+    .market2 {
+        padding-top: 0;
+        margin-top: 0;
+    }
+
+    .market-heading h2 {
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 100%;
+    }
+   
+
+    .market-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px auto;
+        
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .outer-form {
+        background-color: white;
+        width: 100%;
+    }
+
+    .market-display {
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        gap: 15px;
+        justify-content: flex-start;
+        scroll-behavior: smooth;
+    }
+
+    .display {
+        flex: 0 0 calc(50% - 8px);
+    }
+
+    .display {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .market-button button {
+        margin-left: 0%;
+       padding: 10px;
+        font-weight: 500;
+        font-size: 17px;
+    }
+
+    .inner-form {
+        width: 100%;
+    }
+
+    .forme {
+        /* margin-right: 125px; */
+        width: 100%;
+        padding: 0px;
+
+        box-sizing: border-box;
+
+    }
+
+    .inner-form h3 {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 300;
+    }
+
+    .banner-heading h1 {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 50px;
+        padding-bottom: 10px;
+
+    }
+
+    .outer-banner {
+        padding: 10px;
+        box-sizing: border-box;
+        margin: 20px 0px;
+    }
+
+    .banner-button {
+        display: flex
+
+        
+    }
+
+    .button1 {
+        padding: 8px 8px;
+        font-weight: 500;
+        font-size: 15px;
+        margin-bottom: 4px;
+        flex-basis: 50%
+    }
+
+    .button2 {
+        padding: 8px 8px;
+        font-weight: 300;
+        font-size: 12px;
+        flex-basis: 50%;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .stats-box {
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        gap: 15px;
+        justify-content: flex-start;
+        scroll-behavior: smooth;
+        width: 100%;
+    }
+
+    .stat-item {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 10px;
+        width: 100%;
+        flex: 0 0 calc(50% - 8px);
+    }
+
+    .form button {
+        padding-top: 13px;
+        padding-right: 55px;
+        padding-bottom: 13px;
+        padding-left: 55px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .forme {
+        padding-top: 13px;
+        padding-right: 0px;
+        padding-bottom: 13px;
+        padding-left: 0px;
+    }
+
+    .stat-item h2 {
+        font-size: 28px;
+        color: #1E88FF;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+
+    .learn {
+        grid-template-columns: auto;
+    }
+
+    .outer-learn {
+        margin: 20px 0px;
+
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    .testimonial-card {
+        grid-template-columns: auto;
+    }
+    .test{
+        padding: 10px;
+    }
+
+    .book-content {
+        padding: 0px;
+    }
+
+    .inner-our h3 {
+        font-weight: 500;
+        font-size: 34px;
+    }
+    .inner-digital h3{
+        font-weight: 500;
+        font-size: 35px;
+    }
+
+    .outer-our {
+        padding: 10px;
+        margin: 20px 0px;
+    }
+
+    .form {
+        padding: 28px;
+    }
+    .form button{
+       display: block;
+       margin: 0 auto;
+    }
+
+    .inner-form input {
+        padding: 13px 30px;
+    }
+    .button-learn button{
+        font-weight: 500;
+        padding: 10px;
+        font-size: 17px;
+    }
+    .faq-button button{
+        font-weight: 500;
+        padding: 10px;
+        font-size: 17px;
+    }
+    .faq-button{
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .inner-company h3{
+        font-weight: 500;
+        font-size: 30px;
+    }
+    .book-content h4 {
+    font-weight: 500;
+    font-size: 32px;
+    padding-bottom: 8px;
+    }
+    .image1{
+        display: none;
+    }
+    .book-content button{
+        font-size: 15px;
+        font-weight: 500;
+        padding: 10px;
+        
+    }
+    .book-content{
+        padding: 15px 10px;
+    }
+    .end-content {
+        padding: 0px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    .outer-digital{
+        margin: 20px 0px;
+    }
+    .digital-content{
+        width: 100%;
+    }
+    .faq_item{
+        width: 100%;
+    }
+    .topic-item span {
+    font-weight: 4s00;
+    font-size: 18px;
+    }
+    .inner-learn p{
+        font-size: 17px;
+    }
+    .inner-certificate{
+       margin-top: 35px;
+    }
+}
